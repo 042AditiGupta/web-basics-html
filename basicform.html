@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .card {
+            width: 700px;
+            border: 3px solid grey;
+            box-shadow: 2px;
+            margin-top: 20px;
+            margin-bottom: 100px;
+        }
+        
+        .card-header {
+            width: 20px;
+            background-color: rgb(83, 76, 76);
+            color: white;
+            width: 100%;
+        }
+        
+        .form-element {
+            height: 40px;
+            /* background-color: grey; */
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            width: 30%;
+            float: left;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 3px;
+            border-radius: 3px;
+            border: 1px solid rgb(11, 11, 235);
+        }
+        
+        .form-control:focus {
+            box-shadow: 0px 0px3px 2px blue;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="card">
+            <div class="card-header">Sign Up</div>
+            <div class="card-body">
+                <div class="form-element">
+
+                    <!-- <div class="form-label">E-mail:</div> -->
+                    <div class="form-control-container">Email:<input type="email " class="form-control">
+                        </input type>
+                    </div>
+                    <div class="form-element" class="">Password:<input type="password ">
+                        </input type>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

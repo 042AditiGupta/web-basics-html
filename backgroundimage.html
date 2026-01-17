@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar {
+            background-color: rgb(186, 71, 133);
+            padding: 40px;
+        }
+        
+        #navbar .navbar-brand {
+            background-color: rgb(223, 152, 203);
+            width: 40px;
+            padding: 10px;
+        }
+        
+        #navbar .navbar-brand nav {
+            background-color: pink;
+            display: inline;
+        }
+        
+        .photo-gallery {
+            width: 95%;
+            border: 1px solid rgb(195, 185, 185);
+            padding: 10px;
+            margin: auto;
+            margin-top: 100px;
+            height: 300px;
+            float: left;
+        }
+        
+        .photo {
+            float: left;
+            margin: 15px;
+            cursor: pointer;
+            transition: transform 0.5s;
+        }
+        
+        .img-caption {
+            text-align: center;
+        }
+        
+        .photo:hover {
+            transform: scale(1.1);
+        }
+        
+        .photo img {
+            border: 10px ridge green;
+            box-shadow: 0px 0px 4px 2px grey;
+        }
+        
+        #photo1 {
+            background-image: url("roses.jpg");
+        }
+        
+        #photo2 {
+            background-image: url("nature.jpg");
+        }
+        
+        #photo3 {
+            background-image: url("trees.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <!--navigation bar starts-->
+    <div id="navbar">
+        <div class="navbar-brand">india tourism</div>
+        <div class="nav">
+
+            <li> <a href="hr.html">basic program</a></li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <div class="photo-gallery">
+
+        <div class="photo " id="photo1"> <img src="roses.jpg " width="300px " height="100px ">
+            <div class="img-caption ">roses </div>
+        </div>
+
+        <div class="photo" id="photo2"><img src="nature.jpg " width="300px " height="100px ">
+            <div class="img-caption ">nature</div>
+        </div>
+        <div class="photo" id="photo3"><img src="tree.jpg" width="300px" height="100px"></div>
+    </div>
+
+</body>
+
+</html>

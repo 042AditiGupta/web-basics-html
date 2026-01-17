@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Herbal Garden - AYUSH Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        
+        header {
+            background-image: url('herbal-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4CAF50;
+            padding: 15px 0;
+        }
+        
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        nav a:hover {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
+        
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 36px;
+            color: #4CAF50;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .zone {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .zone img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .zone:hover {
+            transform: translateY(-10px);
+        }
+        
+        .zone-content {
+            padding: 20px;
+        }
+        
+        .zone-content h3 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .zone-content p {
+            color: #555;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Virtual Herbal Garden</h1>
+        <p>An Immersive AYUSH Experience</p>
+    </header>
+
+    <nav>
+        <a href="#ayurveda">Ayurveda</a>
+        <a href="#unani">Unani</a>
+        <a href="#siddha">Siddha</a>
+        <a href="#naturopathy">Naturopathy & Yoga</a>
+        <a href="#homeopathy">Homeopathy</a>
+        <a href="#conservation">Conservation</a>
+    </nav>
+
+    <section id="introduction">
+        <h2>Welcome to the Virtual Herbal Garden</h2>
+        <p style="text-align: center; max-width: 800px; margin: auto;">Explore the diverse range of medicinal plants used in AYUSH systems through an interactive and educational experience. Learn about Ayurveda, Unani, Siddha, Naturopathy & Yoga, and Homeopathy, all within a beautifully rendered virtual garden.</p>
+    </section>
+
+    <section id="ayurveda">
+        <h2>Explore the Zones</h2>
+        <div class="container">
+            <div class="zone">
+                <img src="ayurveda.jpg" alt="Ayurveda Plants">
+                <div class="zone-content">
+                    <h3>Ayurveda Zone</h3>
+                    <p>Discover plants fundamental to Ayurvedic medicine, emphasizing balance and holistic health. Explore plants like Tulsi, Ashwagandha, Neem, and Turmeric.</p>
+                </div>
+            </div>
+
+            <div class="zone">
+                <img src="unani.jpg" alt="Unani Plants">
+                <div class="zone-content">
+                    <h3>Unani Zone</h3>
+                    <p>Learn about the rich flora used in Unani medicine, focusing on harmony between the body’s elements. Highlighted plants include Saffron, Henna, Aloe Vera, and Frankincense.</p>
+                </div>
+            </div>
+
+            <div class="zone">
+                <img src="siddha.jpg" alt="Siddha Plants">
+                <div class="zone-content">
+                    <h3>Siddha Zone</h3>
+                    <p>Explore the ancient Tamil medical system with unique herbs and minerals. Featured plants include Nilavembu, Thuthuvalai, and Acalypha Indica.</p>
+                </div>
+            </div>
+
+            <div class="zone">
+                <img src="naturopathy.jpg" alt="Naturopathy Plants">
+                <div class="zone-content">
+                    <h3>Naturopathy & Yoga Zone</h3>
+                    <p>Experience the synergy between herbal remedies and yogic practices promoting natural healing. Learn about Lemon Grass, Mint, Ginger, and Brahmi.</p>
+                </div>
+            </div>
+
+            <div class="zone">
+                <img src="homeopathy.jpg" alt="Homeopathy Plants">
+                <div class="zone-content">
+                    <h3>Homeopathy Zone</h3>
+                    <p>Understand the principles of homeopathy through its reliance on plant-based remedies like Arnica, Belladonna, Chamomilla, and Pulsatilla.</p>
+                </div>
+            </div>
+
+            <div class="zone">
+                <img src="conservation.jpg" alt="Conservation Efforts">
+                <div class="zone-content">
+                    <h3>Conservation & Sustainability</h3>
+                    <p>Learn about the importance of preserving medicinal plant species and sustainable harvesting practices. Engage in virtual planting and conservation activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Virtual Herbal Garden | An Immersive AYUSH Experience</p>
+    </footer>
+
+</body>
+
+</html>
